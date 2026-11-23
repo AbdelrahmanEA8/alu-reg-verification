@@ -1,0 +1,6 @@
+tb/work/
+tb/transcript
+tb/*.ucdb
+tb/*.wlf
+modelsim.ini
+.history/
