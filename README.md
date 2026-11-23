@@ -91,10 +91,5 @@ TEST PASSED
 | [Verification plan](docs/alu_reg_verification_plan.md) | Scope, environment, stimulus, checking, coverage model, completion criteria, results |
 | [Issue log](docs/alu_vc_issue_log.md) | Issues found and resolved, simulation results, history |
 
-## Known Limitations
-
-- The internal `b` register's hold and reset behavior is checked only indirectly, through results.
-- Reset is applied only at the start of simulation. Reset with a load, and reset during operation, are out of scope.
-- The `acc_out` assertions were added after the final regression and have not yet been run in simulation.
 
 See the [verification plan](docs/alu_reg_verification_plan.md#11-known-limitations) for details.
