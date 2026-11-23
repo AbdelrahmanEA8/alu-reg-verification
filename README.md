@@ -1,6 +1,6 @@
 # ALU Register Verification: Class-Based SystemVerilog Testbench
 
-A self-checking, coverage-driven testbench for a 16-bit registered ALU (`alu_reg`). It is written in plain class-based SystemVerilog, using the same agent / driver / monitor / scoreboard structure that UVM formalizes. This is Week 0 of a UVM study plan.
+A self-checking, coverage-driven testbench for a 16-bit registered ALU (`alu_reg`). It is written in plain class-based SystemVerilog, using the same agent / driver / monitor / scoreboard structure that UVM formalizes.
 
 | Result (QuestaSim 2021.1, 1,000 constrained-random transactions) | |
 |---|---|
